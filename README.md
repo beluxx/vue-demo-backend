@@ -1,5 +1,7 @@
 # Project_Name
 
+[![build status](https://img.shields.io/travis/iris-contrib/basic-template/master.svg?style=for-the-badge&logo=travis)](https://travis-ci.org/iris-contrib/basic-template) [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=for-the-badge)](https://goreportcard.com/report/vue-demo-backend)
+
 this is a backend serve for [vue-little-demo](https://github.com/beluxx/vue-little-demo).
 
 ## Installation
