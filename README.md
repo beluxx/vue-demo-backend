@@ -18,3 +18,11 @@ git clone git@github.com:beluxx/vue-demo-backend.git
 ```sh
 go run main.go
 ```
+
+- 热加载
+
+```sh
+air
+```
+
+可修改`.air.toml`来自定义热加载的逻辑
