@@ -1,6 +1,5 @@
 # Project_Name
 
-[![build status](https://img.shields.io/travis/iris-contrib/basic-template/master.svg?style=for-the-badge&logo=travis)](https://travis-ci.org/iris-contrib/basic-template) [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=for-the-badge)](https://goreportcard.com/report/vue-demo-backend)
 
 this is a backend serve for [vue-little-demo](https://github.com/beluxx/vue-little-demo).
 
@@ -8,28 +7,14 @@ this is a backend serve for [vue-little-demo](https://github.com/beluxx/vue-litt
 
 The only requirement is the [Go Programming Language](https://golang.org/dl).
 
-```sh
-go get vue-demo-backend
-```
-
-## Install the template
-
-You will need to have [Iris CLI](https://github.com/kataras/iris-cli) installed.
-
-Execute the following command:
+- 克隆项目到本地工作目录
 
 ```sh
-iris-cli new basic --replace=iris-contrib/basic-template=your_username/repo
+git clone git@github.com:beluxx/vue-demo-backend.git
 ```
 
-> Note: remove this section from your own README.md
+- 运行项目
 
-### Contributing
-
-We'd love to see your contribution to this project! For more information about contributing please check the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-[List of all Contributors](https://vue-demo-backend/graphs/contributors)
-
-## License
-
-Free and open-source software licensed under the [MIT License](LICENSE).
+```sh
+go run main.go
+```

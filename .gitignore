@@ -2,3 +2,6 @@
 .vscode
 go.sum
 .iris.yml
+
+tmp/*
+*.log

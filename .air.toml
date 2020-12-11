@@ -7,9 +7,9 @@ tmp_dir = "tmp"
 
 [build]
 # Just plain old shell command. You could use `make` as well.
-cmd = "go build -o ./vue-demo-backend ."
+cmd = "go build -o ./tmp/vue-demo-backend ."
 # Binary file yields from `cmd`.
-bin = "./vue-demo-backend"
+bin = "./tmp/vue-demo-backend"
 # Customize binary.
 full_bin = "APP_ENV=dev APP_USER=air ./vue-demo-backend"
 # Watch these filename extensions.
