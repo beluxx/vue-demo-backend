@@ -4,8 +4,6 @@ import (
 	"vue_demo_backend/models"
 )
 
-// var db := models.DB()
-
 // InsertPost 插入一条文章数据
 func InsertPost() error {
 	post := models.Post{

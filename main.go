@@ -11,9 +11,7 @@ func main() {
 
 	router.RegisterRouter(app)
 
-	// router.RegisterRouter(app)
-
-	app.Listen(":8886")
+	app.Listen(":8866")
 }
 
 func newApp() *iris.Application {
